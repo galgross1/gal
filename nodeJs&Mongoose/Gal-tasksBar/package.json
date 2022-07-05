@@ -16,7 +16,7 @@
     "express-joi-validation": "^5.0.1",
     "joi": "^17.6.0",
     "mongodb": "^4.7.0",
-    "mongoose": "^6.4.0",
+    "mongoose": "^6.4.2",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "password": "^0.1.1"
