@@ -1,7 +1,13 @@
 import React from 'react';
 // import Button from '../components/Button';
-import {Button, Typography } from '@mui/material';
+import {Button, styled, Typography } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
+
+const BlueButton = styled(button)({
+    backgroundColor:"skyblue",
+    color:"#888",
+    margin:5,
+})
 
 function App() {
   return (
@@ -22,6 +28,8 @@ function App() {
         color:"#888",
         margin:5,
       }}>My Uniqe Button</button>
+
+      <BlueButton>My Uniqe Button Const</BlueButton>
   </div>
     </>
   );
