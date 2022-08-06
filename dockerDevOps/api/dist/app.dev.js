@@ -14,7 +14,7 @@ app.get("/", function (req, res) {
     title: "Book Review: The Bear & The Nightingale"
   }, {
     id: "2",
-    title: "Game Review: Pokemon Brillian Diamond"
+    title: "Game Review: Pokemon Brilliant Diamond"
   }, {
     id: "3",
     title: "Show Review: Alice in Borderland"

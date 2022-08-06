@@ -6,44 +6,16 @@ const ExpenseForm = (props) => {
   const [enteredAmount, setEnteredAmount] = useState("");
   const [enteredDate, setEnteredDate] = useState("");
 
-  // const [userInput, setUserInput] = useState({
-  //     enteredTitle: '',
-  //     enteredAmmount: '',
-  //     enteredDate: ''
-  // });
-
-  // document.getElementById('').addEventListener('click',(event) => {}) //vanilla js
-
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value);
-
-    // setUserInput({
-    // ...userInput,
-    // enteredTitle: event.target.value,
-    // })
-
-    // safer way to do it:(save the last state):
-    // setUserInput((prevState) => {
-    //     return {...prevState, enteredTitle: event.target.value};
-    // });
   };
 
   const amountChangeHandler = (event) => {
     setEnteredAmount(event.target.value);
-
-    //   setUserInput({
-    // ...userInput,
-    // enteredAmmount: event.target.value,
-    // })
   };
 
   const dateChangeHandler = (event) => {
     setEnteredDate(event.target.value);
-
-    // setUserInput({
-    //     ...userInput,
-    //     enteredDate: event.target.value,
-    //     })
   };
 
   const submitHandler = (event) => {
